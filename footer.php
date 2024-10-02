@@ -14,7 +14,7 @@
 <footer id="colophon" class="site-footer">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-xl-4">
+            <div class="col-12 col-xl-3">
                 <div class="site-branding">
                     <div class="logo-and-title">
                         <?php
@@ -47,7 +47,7 @@
                     </div>
                 </div><!-- .site-branding -->
             </div>
-            <div class="col-12 col-xl-2">
+            <div class="col-12 col-xl-3">
                 <h3 class="footer-menu__title">Explore</h3>
                 <?php
 					wp_nav_menu(
@@ -58,7 +58,7 @@
 					);
 				?>
             </div>
-            <div class="col-12 col-xl-2">
+            <div class="col-12 col-xl-3">
                 <h3 class="footer-menu__title">Utility Pages</h3>
                 <?php
 					wp_nav_menu(
@@ -69,17 +69,17 @@
 					);
 				?>
             </div>
-            <div class="col-12 col-xl-4">
+            <div class="col-12 col-xl-3">
                 <h3 class="footer-menu__title">Keep in Touch</h3>
                 <p class="info">
-                    <span class="label">Address :</span>24A Kingston St, Los Vegas NC 28202, USA.
+                    <span class="label">Address:</span>24A Kingston St, Los Vegas NC 28202, USA.
                 </p>
                 <p class="info">
-                    <span class="label">Mail :</span><a
+                    <span class="label">Mail:</span><a
                         href="mailto:support@developmentweb.online">support@developmentweb.online</a>
                 </p>
                 <p class="info">
-                    <span class="label">Phone :</span><a href="tel:+221234567900">(+22) 123 - 4567 - 900</a>
+                    <span class="label">Phone:</span><a href="tel:+221234567900">(+22) 123 - 4567 - 900</a>
                 </p>
             </div>
             <div class="col-12">

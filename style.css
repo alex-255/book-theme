@@ -2124,9 +2124,13 @@ textarea {
   text-decoration: none;
   color: #B4C7E7;
 }
+.site-footer .info a:hover, .site-footer .info a:focus {
+  text-decoration: underline;
+}
 .site-footer .info .label {
+  display: block;
   color: #FFF;
-  text-align: center;
+  text-align: left;
   font-family: Cardo;
   font-size: 18px;
   font-style: normal;
@@ -2150,7 +2154,7 @@ textarea {
   color: #FFCA42;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
   .site-footer .site-branding {
     align-items: center;
   }
@@ -2176,7 +2180,7 @@ textarea {
     text-align: center;
   }
   .site-footer .info .label {
-    display: block;
+    text-align: center;
   }
   .site-footer .site-copyright {
     padding: 30px 0;

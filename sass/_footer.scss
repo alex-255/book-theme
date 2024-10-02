@@ -146,11 +146,16 @@
         a {
             text-decoration: none;
             color: #B4C7E7;
+
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
         }
 
         .label {
+            display: block;
             color: #FFF;
-            text-align: center;
+            text-align: left;
             font-family: Cardo;
             font-size: 18px;
             font-style: normal;
@@ -178,7 +183,7 @@
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
     .site-footer {
         .site-branding {
             align-items: center;
@@ -213,7 +218,7 @@
         .info {
             text-align: center;
             .label {
-                display: block;
+                text-align: center;
             }
         }
     
