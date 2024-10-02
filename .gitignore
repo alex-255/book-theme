@@ -1,0 +1,7 @@
+.styleintrc.json
+composer.json
+package.json
+style.css.map
+woocommerce.css.map
+phpcs.xml.dist
+.eslintrc
