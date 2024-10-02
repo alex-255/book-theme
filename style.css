@@ -2138,4 +2138,48 @@ textarea {
   color: #FFCA42;
 }
 
+@media screen and (max-width: 991px) {
+  .site-footer .site-branding {
+    align-items: center;
+  }
+  .site-footer .social-icons {
+    display: flex;
+  }
+  .site-footer .footer-menu__title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .site-footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-footer .footer-menu li {
+    margin-left: 0;
+  }
+  .site-footer .footer-menu li::before {
+    content: none;
+  }
+  .site-footer .info {
+    text-align: center;
+  }
+  .site-footer .info .label {
+    display: block;
+  }
+  .site-footer .site-copyright {
+    padding: 30px 0;
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -0.18px;
+    text-align: center;
+  }
+  .site-footer .site-copyright a {
+    color: #FFCA42;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
