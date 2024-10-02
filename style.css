@@ -1987,4 +1987,155 @@ textarea {
   text-decoration: none;
 }
 
+/* Footer
+--------------------------------------------- */
+.site-footer {
+  background-color: #1B3764;
+  padding-top: 84px;
+  padding-bottom: 70px;
+}
+.site-footer .site-branding {
+  display: flex;
+  flex-direction: column;
+}
+.site-footer .site-branding .logo-and-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.site-footer .site-branding img.custom-logo {
+  width: 50px;
+  height: auto;
+  max-height: 50px;
+}
+.site-footer .site-title {
+  margin: 0px 9px;
+}
+.site-footer .site-title a {
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  text-decoration: none;
+}
+.site-footer .site-description {
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  margin: 0px;
+}
+.site-footer .social-icons {
+  display: flex;
+}
+.site-footer .social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.site-footer .social-icons a:last-of-type {
+  margin-right: 0;
+}
+.site-footer .social-icons .dashicons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: solid 1px #FFCA42;
+  transition: all 0.3s;
+}
+.site-footer .social-icons .dashicons::before {
+  color: #FFF;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.site-footer .social-icons .dashicons:hover, .site-footer .social-icons .dashicons:focus {
+  background-color: #FFCA42;
+}
+.site-footer .social-icons .dashicons:hover::before, .site-footer .social-icons .dashicons:focus::before {
+  color: #1B3764;
+}
+.site-footer .footer-menu__title {
+  color: #FFF;
+  font-family: Cardo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.48px;
+  margin-bottom: 25px;
+}
+.site-footer .footer-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.site-footer .footer-menu li {
+  margin-left: 45px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.site-footer .footer-menu li:before {
+  content: url("./img/Three-dots-icon.svg");
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -45px;
+}
+.site-footer .footer-menu li a {
+  color: #B4C7E7;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+.site-footer .footer-menu li a:focus, .site-footer .footer-menu li a:hover {
+  text-decoration: underline;
+}
+.site-footer .info {
+  color: #B4C7E7;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: -0.18px;
+}
+.site-footer .info a {
+  text-decoration: none;
+  color: #B4C7E7;
+}
+.site-footer .info .label {
+  color: #FFF;
+  text-align: center;
+  font-family: Cardo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  margin-right: 10px;
+}
+.site-footer .site-copyright {
+  padding: 30px 0;
+  color: #B4C7E7;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: -0.18px;
+  text-align: center;
+}
+.site-footer .site-copyright a {
+  color: #FFCA42;
+}
+
 /*# sourceMappingURL=style.css.map */

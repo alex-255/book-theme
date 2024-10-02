@@ -31,21 +31,21 @@
             <div class="container">
                 <div class="site-branding">
                     <?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
+                the_custom_logo();
+                if ( is_front_page() && is_home() ) :
+                    ?>
                     <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
                             rel="home"><?php bloginfo( 'name' ); ?></a></h1>
                     <?php
-			else :
-				?>
+                else :
+                    ?>
                     <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
                             rel="home"><?php bloginfo( 'name' ); ?></a></p>
                     <?php
-			endif;
-			$book_theme_description = get_bloginfo( 'description', 'display' );
-			if ( $book_theme_description || is_customize_preview() ) :
-				?>
+                endif;
+                $book_theme_description = get_bloginfo( 'description', 'display' );
+                if ( $book_theme_description || is_customize_preview() ) :
+                    ?>
                     <p class="site-description">
                         <?php echo $book_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
                     </p>
@@ -55,13 +55,13 @@
                 <nav id="site-navigation" class="main-navigation">
                     <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"></button>
                     <?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
+                        wp_nav_menu(
+                            array(
+                                'theme_location' => 'menu-1',
+                                'menu_id'        => 'primary-menu',
+                            )
+                        );
+                    ?>
                     <span class="dashicons dashicons-cart"></span>
                     <a href="#" class="link__order-today">Order Today</a>
                 </nav><!-- #site-navigation -->

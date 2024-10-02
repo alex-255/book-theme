@@ -50,6 +50,8 @@ function book_theme_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'book_theme' ),
+			'footer-1' => esc_html__( 'Footer 1', 'book_theme' ),
+			'footer-2' => esc_html__( 'Footer 2', 'book_theme' ),
 		)
 	);
 
