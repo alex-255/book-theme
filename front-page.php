@@ -270,23 +270,23 @@ get_header();
                 <div class="col-12">
                     <h2 class="posts__title">Articles & Resources</h2>
                 </div>
-                <div class="row">
-                    <?php
-    // the query.
-    $the_query = new WP_Query( array(
-        "posts_per_page" => 3
-    ) ); ?>
 
-                    <?php if ( $the_query->have_posts() ) : ?>
-                    <!-- pagination here -->
+                <?php
+                    // the query.
+                    $the_query = new WP_Query( array(
+                        "posts_per_page" => 3
+                    ) ); ?>
 
-                    <!-- the loop -->
-                    <?php
-	while ( $the_query->have_posts() ) :
-		$the_query->the_post();
-		?>
-                    <div class="posts__text col-12 col-xl-4">
-                        <img class="posts__text__image" <?php 
+                <?php if ( $the_query->have_posts() ) : ?>
+                <!-- pagination here -->
+
+                <!-- the loop -->
+                <?php
+                    while ( $the_query->have_posts() ) :
+                        $the_query->the_post();
+                        ?>
+                <div class="posts__text col-12 col-xl-4">
+                    <img class="posts__text__image" <?php 
                             echo "srcset=\"";
                             echo get_the_post_thumbnail_url( get_the_ID(), "thumbnail" ) . " 150w, ";
                             echo get_the_post_thumbnail_url( get_the_ID(), "medium" ) . " 300w, ";
@@ -299,38 +299,38 @@ get_header();
                             echo "(max-width:150px) 150px, (max-width:300px) 300px, (max-width:768px) 768px, (max-width:1024px) 1024px, (min-width:1200px) 768px, 2048px";
                             echo "\"";
                             ?> src="<?php echo get_the_post_thumbnail_url( get_the_ID(), "full" ); ?>"
-                            alt="<?php echo get_the_title(); ?>" loading="lazy" />
-                        <div class="posts__text__text">
-                            <?php the_title( '<h2 class="posts__text__text__title">', '</h2>' ); ?>
-                            <p class="posts__text__text__paragraph">
-                                <?php echo wp_trim_words( get_the_content( null, false, $the_query->get_the_ID() ), 20, null ); ?>
-                            </p>
-                            <div class="posts__text__text__links">
-                                <a class="posts__text__text__links__read-more" href="<?php the_permalink() ?>">Read
-                                    more<span><?php echo " about " . get_the_title(); ?></span></a>
-                                <span class="posts__text__text__links__right">
-                                    <?php // the_author_link(); 
+                        alt="<?php echo get_the_title(); ?>" loading="lazy" />
+                    <div class="posts__text__text">
+                        <?php the_title( '<h2 class="posts__text__text__title">', '</h2>' ); ?>
+                        <p class="posts__text__text__paragraph">
+                            <?php echo wp_trim_words( get_the_content( null, false, $the_query->get_the_ID() ), 20, null ); ?>
+                        </p>
+                        <div class="posts__text__text__links">
+                            <a class="posts__text__text__links__read-more" href="<?php the_permalink() ?>">Read
+                                more<span><?php echo " about " . get_the_title(); ?></span></a>
+                            <span class="posts__text__text__links__right">
+                                <?php // the_author_link(); 
                                     book_theme_posted_by();?>
-                                    <?php echo " - " . get_the_date( "j.n.Y", get_the_ID() ); ?>
-                                </span>
-                            </div>
+                                <?php echo " - " . get_the_date( "j.n.Y", get_the_ID() ); ?>
+                            </span>
                         </div>
-
-
                     </div>
 
-                    <?php endwhile; ?>
-                    <!-- end of the loop -->
-
-                    <!-- pagination here -->
-
-                    <?php wp_reset_postdata(); ?>
-
-                    <?php else : ?>
-                    <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
-                    <?php endif; ?>
 
                 </div>
+
+                <?php endwhile; ?>
+                <!-- end of the loop -->
+
+                <!-- pagination here -->
+
+                <?php wp_reset_postdata(); ?>
+
+                <?php else : ?>
+                <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                <?php endif; ?>
+
+
             </div>
         </div>
     </section>

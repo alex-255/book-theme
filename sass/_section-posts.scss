@@ -126,3 +126,18 @@
         
     }    
 }
+
+@media screen and (max-width: 400px) {
+    .posts__text__text__links {
+        flex-direction: column;
+        align-items: center;
+
+        &__read-more {
+            margin: 10px;
+        }
+
+        &__right {
+            margin: 10px;
+        }
+    }
+}
