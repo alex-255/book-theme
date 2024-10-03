@@ -1,0 +1,140 @@
+.post {
+    .entry-header {
+        background-color: $color__main-blue;
+        padding-top: 110px;
+        padding-bottom: 160px;
+
+        .entry-title {
+            color: #F5F8FC;
+            text-align: center;
+            font-family: Cardo;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 55px */
+            letter-spacing: -1px;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 55px;
+                height: 3px;
+                background-color: $color__main-yellow;
+                bottom: -34px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    .post-thumbnail {
+        margin-top: 150px;
+    }
+
+    .entry-content {
+        .entry-meta {
+            color: $color__main-blue;
+            font-family: Cardo;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 200%; 
+            letter-spacing: -0.24px;
+            margin-top: 15px;
+            a {
+                color: $color__main-blue;
+            }
+        }
+
+        &__content {
+            margin-top: 30px;
+
+            p {
+                color: #969AA0;
+                font-family: Inter;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 170%;
+                letter-spacing: -0.19px;
+            } 
+        }
+        
+    }
+}
+
+.nav-links {
+    color: $color__main-blue;
+    font-family: Cardo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%; 
+    letter-spacing: -0.24px;
+    margin-top: 15px;
+
+    a {
+        color: $color__main-blue;
+    }
+}
+
+.comments-area {
+    .comment-reply-title {
+        color: $color__main-blue;
+        font-family: Cardo;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%; 
+        letter-spacing: -0.24px;
+        margin-top: 15px;
+    }
+
+    p {
+        color: #969AA0;
+        font-family: Inter;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        letter-spacing: -0.19px;
+    } 
+}
+
+.widget-area {
+    margin-top: 100px;
+    .container {
+        display: flex;    
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .wp-block-heading {
+        color: $color__main-blue;
+        font-family: Cardo;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%; 
+        letter-spacing: -0.24px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    ul, ol {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .widget-area {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

@@ -3,19 +3,21 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	border: 1px solid;
-	border-color: $color__border-button;
-	border-radius: 3px;
-	background: $color__background-button;
-	color: rgba(0, 0, 0, 0.8);
+	border-color: $color__main-yellow;
+	border-radius: 0px;
+	background: #FFF;
+	color: $color__main-blue;
+	font-size: 20px;
 	line-height: 1;
-	padding: 0.6em 1em 0.4em;
+	padding: 0.7em 1.2em 0.7em 1.2em;
+	transition: all 0.3s;
 
 	&:hover {
-		border-color: $color__border-button-hover;
+		background: $color__main-yellow;
 	}
 
 	&:active,
 	&:focus {
-		border-color: $color__border-button-focus;
+		background: $color__main-yellow;
 	}
 }
