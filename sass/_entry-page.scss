@@ -1,4 +1,4 @@
-.post {
+.page {
     .entry-header {
         background-color: $color__main-blue;
         padding-top: 110px;
@@ -33,22 +33,7 @@
     }
 
     .entry-content {
-        .entry-meta {
-            color: $color__main-blue;
-            font-family: Cardo;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 200%; 
-            letter-spacing: -0.24px;
-            margin-top: 15px;
-            a {
-                color: $color__main-blue;
-            }
-        }
-
-        &__content {
-            margin-top: 30px;
+        margin-top: 30px;
 
             p {
                 color: #969AA0;
@@ -59,12 +44,10 @@
                 line-height: 170%;
                 letter-spacing: -0.19px;
             } 
-        }
-        
     }
 }
 
-.nav-links {
+.entry-footer {
     color: $color__main-blue;
     font-family: Cardo;
     font-size: 24px;
@@ -77,29 +60,6 @@
     a {
         color: $color__main-blue;
     }
-}
-
-.comments-area {
-    .comment-reply-title {
-        color: $color__main-blue;
-        font-family: Cardo;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 200%; 
-        letter-spacing: -0.24px;
-        margin-top: 15px;
-    }
-
-    p {
-        color: #969AA0;
-        font-family: Inter;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 170%;
-        letter-spacing: -0.19px;
-    } 
 }
 
 .widget-area {
