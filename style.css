@@ -520,7 +520,7 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-  color: #1B3764;
+  color: #1b3764;
 }
 a:visited {
   color: #800080;
@@ -542,10 +542,10 @@ input[type=button],
 input[type=reset],
 input[type=submit] {
   border: 1px solid;
-  border-color: #FFCA42;
+  border-color: #ffca42;
   border-radius: 0px;
   background: #FFF;
-  color: #1B3764;
+  color: #1b3764;
   font-size: 20px;
   line-height: 1;
   padding: 0.7em 1.2em 0.7em 1.2em;
@@ -555,7 +555,7 @@ button:hover,
 input[type=button]:hover,
 input[type=reset]:hover,
 input[type=submit]:hover {
-  background: #FFCA42;
+  background: #ffca42;
 }
 button:active, button:focus,
 input[type=button]:active,
@@ -564,7 +564,7 @@ input[type=reset]:active,
 input[type=reset]:focus,
 input[type=submit]:active,
 input[type=submit]:focus {
-  background: #FFCA42;
+  background: #ffca42;
 }
 
 input[type=text],
@@ -676,7 +676,7 @@ textarea {
 .menu-toggle::after {
   content: "\f349";
   font-family: "dashicons";
-  color: #FFCA42;
+  color: #ffca42;
   font-size: 30px;
 }
 
@@ -954,7 +954,7 @@ textarea {
 /* Site Header
 --------------------------------------------- */
 .site-header {
-  background-color: #1B3764;
+  background-color: #1b3764;
 }
 .site-header .container {
   display: flex;
@@ -1018,13 +1018,13 @@ textarea {
 }
 .site-header .main-navigation ul.menu > li .sub-menu {
   flex-direction: column;
-  background-color: #F6F8FC;
+  background-color: #f6f8fc;
 }
 .site-header .main-navigation ul.menu > li .sub-menu li {
   border-bottom: solid 1px rgb(201, 201, 201);
 }
 .site-header .main-navigation ul.menu > li .sub-menu a {
-  color: #1B3764;
+  color: #1b3764;
   margin: 5px 10px;
 }
 .site-header .main-navigation ul.menu > li.current-menu-item > a {
@@ -1069,23 +1069,23 @@ textarea {
 .site-header .main-navigation.toggled ul.menu > li.current-menu-item > a {
   display: inline-block;
   background-color: white;
-  color: #1B3764;
+  color: #1b3764;
 }
 .site-header .main-navigation.toggled ul.menu > li:has(.current-menu-item) > a {
   display: inline-block;
   background-color: white;
-  color: #1B3764;
+  color: #1b3764;
 }
 .site-header .dashicons-cart {
   color: #FFF;
 }
 .site-header .link__order-today {
-  background: #FFCA42;
+  background: #ffca42;
   display: flex;
   padding: 13px 33px;
   justify-content: center;
   align-items: center;
-  color: #1B3764;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 19px;
@@ -1110,7 +1110,7 @@ textarea {
 /* Hero Section
 --------------------------------------------- */
 .hero-section {
-  background-color: #1B3764;
+  background-color: #1b3764;
   padding: 95px 0px 115px 0px;
 }
 
@@ -1145,7 +1145,7 @@ textarea {
   top: 50%;
   transform: translateY(-50%);
   width: 34px;
-  border-top: solid 1px #FFCA42;
+  border-top: solid 1px #ffca42;
 }
 
 .hero__title {
@@ -1180,8 +1180,8 @@ textarea {
   padding: 20px 53px 21px 53px;
   justify-content: center;
   align-items: center;
-  background-color: #FFCA42;
-  color: #1B3764;
+  background-color: #ffca42;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 19px;
@@ -1240,7 +1240,7 @@ textarea {
   font-family: "dashicons";
   font-size: 24px;
   left: -37px;
-  color: #FFCA42;
+  color: #ffca42;
 }
 .hero__items li span {
   display: block;
@@ -1294,7 +1294,7 @@ textarea {
 .books__title {
   display: block;
   margin: 0px auto 0px auto;
-  color: #1B3764;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 45px;
@@ -1311,7 +1311,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -22px;
   left: 50%;
   transform: translateX(-50%);
@@ -1339,7 +1339,7 @@ textarea {
   justify-content: center;
 }
 .books__text__title {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 32px;
   font-style: normal;
@@ -1362,7 +1362,7 @@ textarea {
   margin: 30px 0 0 0;
   padding: 0;
   justify-content: center;
-  color: #FFCA42;
+  color: #ffca42;
 }
 .books__text__items li {
   font-family: Cardo;
@@ -1375,7 +1375,7 @@ textarea {
   margin: 0px 29px 0 29px;
 }
 .books__text__items li span {
-  color: #1B3764;
+  color: #1b3764;
 }
 .books__text__items li span .grey-text {
   color: #969AA0;
@@ -1389,8 +1389,8 @@ textarea {
 .books__text__link-button {
   display: inline-block;
   padding: 20px 53px;
-  border: solid 1px #FFCA42;
-  color: #1B3764;
+  border: solid 1px #ffca42;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 19px;
@@ -1404,7 +1404,7 @@ textarea {
   transition: all 0.3s;
 }
 .books__text__link-button:hover, .books__text__link-button:focus {
-  background-color: #FFCA42;
+  background-color: #ffca42;
 }
 
 @media (max-width: 991px) {
@@ -1448,7 +1448,7 @@ textarea {
 }
 .about-author__image .image .frame {
   position: absolute;
-  border: 12px solid #FFCA42;
+  border: 12px solid #ffca42;
   top: 30px;
   left: 30px;
   right: 0;
@@ -1458,7 +1458,7 @@ textarea {
   padding-left: 71px;
 }
 .about-author__text__title {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 45px;
   font-style: normal;
@@ -1473,7 +1473,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -22px;
   left: 0;
 }
@@ -1491,7 +1491,7 @@ textarea {
   justify-content: space-between;
 }
 .about-author__text__numbers .item span {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 55px;
   font-style: normal;
@@ -1510,10 +1510,10 @@ textarea {
   letter-spacing: -0.18px;
 }
 .about-author__text__numbers .line {
-  border-right: solid 1px #FFCA42;
+  border-right: solid 1px #ffca42;
 }
 .about-author__text__card {
-  background-color: #1B3764;
+  background-color: #1b3764;
   display: flex;
   align-items: center;
   padding: 15px 18px;
@@ -1528,7 +1528,7 @@ textarea {
   margin-left: 37px;
 }
 .about-author__text__card__text .name {
-  color: #FFCA42;
+  color: #ffca42;
   font-family: Cardo;
   font-size: 22px;
   font-style: normal;
@@ -1587,7 +1587,7 @@ textarea {
   }
   .about-author__text__numbers .line {
     border-right: none;
-    border-bottom: solid 1px #FFCA42;
+    border-bottom: solid 1px #ffca42;
     width: 50%;
     margin: 50px;
   }
@@ -1610,7 +1610,7 @@ textarea {
 .trusted__title {
   display: block;
   margin: 0px auto 0px auto;
-  color: #1B3764;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 45px;
@@ -1627,7 +1627,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -22px;
   left: 50%;
   transform: translateX(-50%);
@@ -1646,7 +1646,7 @@ textarea {
   width: auto;
 }
 .trusted__slider .carousel-item .image-with-text .title {
-  color: #1B3764;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 24px;
@@ -1681,7 +1681,7 @@ textarea {
 /* Get Book Section
 --------------------------------------------- */
 .get-book-section {
-  background-color: #1B3764;
+  background-color: #1b3764;
   padding-top: 37px;
   padding-bottom: 36px;
 }
@@ -1708,7 +1708,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -22px;
   left: 0;
 }
@@ -1725,7 +1725,7 @@ textarea {
 .get-book__text__link-button {
   display: inline-block;
   padding: 20px 53px;
-  border: solid 1px #FFCA42;
+  border: solid 1px #ffca42;
   color: #FFF;
   text-align: center;
   font-family: Cardo;
@@ -1740,8 +1740,8 @@ textarea {
   transition: all 0.3s;
 }
 .get-book__text__link-button:hover, .get-book__text__link-button:focus {
-  background-color: #FFCA42;
-  color: #1B3764;
+  background-color: #ffca42;
+  color: #1b3764;
 }
 
 .get-book__image {
@@ -1776,7 +1776,7 @@ textarea {
 .learn__title {
   display: block;
   margin: 0px auto 0px auto;
-  color: #1B3764;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 45px;
@@ -1793,7 +1793,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -22px;
   left: 50%;
   transform: translateX(-50%);
@@ -1817,7 +1817,7 @@ textarea {
   background-color: #F4F8FF;
 }
 .learn__text__number {
-  background-color: #FFCA42;
+  background-color: #ffca42;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1834,7 +1834,7 @@ textarea {
   letter-spacing: -0.24px;
 }
 .learn__text__paragraph {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 24px;
   font-style: normal;
@@ -1857,7 +1857,7 @@ textarea {
 }
 .learn__image .image .frame {
   position: absolute;
-  border: 12px solid #FFCA42;
+  border: 12px solid #ffca42;
   top: 30px;
   left: 30px;
   right: 0;
@@ -1897,7 +1897,7 @@ textarea {
 .posts__title {
   display: block;
   margin: 0px auto 0px auto;
-  color: #1B3764;
+  color: #1b3764;
   text-align: center;
   font-family: Cardo;
   font-size: 45px;
@@ -1914,7 +1914,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -22px;
   left: 50%;
   transform: translateX(-50%);
@@ -1929,7 +1929,7 @@ textarea {
   box-shadow: 0px 35px 25px 0px rgba(4, 11, 20, 0.04);
 }
 .posts__text__text__title {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 24px;
   font-style: normal;
@@ -1970,7 +1970,7 @@ textarea {
   position: absolute;
   bottom: -3px;
   left: 0;
-  background: linear-gradient(90deg, #1B3764 0%, #1B3764 34%, #FFCA42 34%, #FFCA42 66%, #1B3764 66%, #1B3764 100%);
+  background: linear-gradient(90deg, #1b3764 0%, #1b3764 34%, #ffca42 34%, #ffca42 66%, #1b3764 66%, #1b3764 100%);
   background-size: 300%;
   background-position: left;
   transition: all 0.5s;
@@ -1985,7 +1985,7 @@ textarea {
   overflow: hidden;
 }
 .posts__text__text__links__right a {
-  color: #1B3764;
+  color: #1b3764;
   text-decoration: none;
 }
 
@@ -2004,7 +2004,7 @@ textarea {
 /* Footer
 --------------------------------------------- */
 .site-footer {
-  background-color: #1B3764;
+  background-color: #1b3764;
   padding-top: 84px;
   padding-bottom: 70px;
 }
@@ -2058,7 +2058,7 @@ textarea {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  border: solid 1px #FFCA42;
+  border: solid 1px #ffca42;
   transition: all 0.3s;
 }
 .site-footer .social-icons .dashicons::before {
@@ -2067,10 +2067,10 @@ textarea {
   transition: all 0.3s;
 }
 .site-footer .social-icons .dashicons:hover, .site-footer .social-icons .dashicons:focus {
-  background-color: #FFCA42;
+  background-color: #ffca42;
 }
 .site-footer .social-icons .dashicons:hover::before, .site-footer .social-icons .dashicons:focus::before {
-  color: #1B3764;
+  color: #1b3764;
 }
 .site-footer .footer-menu__title {
   color: #FFF;
@@ -2153,7 +2153,7 @@ textarea {
   text-align: center;
 }
 .site-footer .site-copyright a {
-  color: #FFCA42;
+  color: #ffca42;
 }
 
 @media screen and (max-width: 1199px) {
@@ -2196,13 +2196,13 @@ textarea {
     text-align: center;
   }
   .site-footer .site-copyright a {
-    color: #FFCA42;
+    color: #ffca42;
   }
 }
 /* Entry post
 --------------------------------------------- */
 .post .entry-header {
-  background-color: #1B3764;
+  background-color: #1b3764;
   padding-top: 110px;
   padding-bottom: 160px;
 }
@@ -2222,7 +2222,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -34px;
   left: 50%;
   transform: translateX(-50%);
@@ -2231,7 +2231,7 @@ textarea {
   margin-top: 150px;
 }
 .post .entry-content .entry-meta {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 24px;
   font-style: normal;
@@ -2241,7 +2241,7 @@ textarea {
   margin-top: 15px;
 }
 .post .entry-content .entry-meta a {
-  color: #1B3764;
+  color: #1b3764;
 }
 .post .entry-content__content {
   margin-top: 30px;
@@ -2257,7 +2257,7 @@ textarea {
 }
 
 .nav-links {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 24px;
   font-style: normal;
@@ -2267,11 +2267,11 @@ textarea {
   margin-top: 15px;
 }
 .nav-links a {
-  color: #1B3764;
+  color: #1b3764;
 }
 
 .comments-area .comment-reply-title {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 28px;
   font-style: normal;
@@ -2301,7 +2301,7 @@ textarea {
   gap: 20px;
 }
 .widget-area .wp-block-heading {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 28px;
   font-style: normal;
@@ -2331,7 +2331,7 @@ textarea {
 /* Entry page
 --------------------------------------------- */
 .page .entry-header {
-  background-color: #1B3764;
+  background-color: #1b3764;
   padding-top: 110px;
   padding-bottom: 160px;
 }
@@ -2351,7 +2351,7 @@ textarea {
   position: absolute;
   width: 55px;
   height: 3px;
-  background-color: #FFCA42;
+  background-color: #ffca42;
   bottom: -34px;
   left: 50%;
   transform: translateX(-50%);
@@ -2373,7 +2373,7 @@ textarea {
 }
 
 .entry-footer {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 24px;
   font-style: normal;
@@ -2383,7 +2383,7 @@ textarea {
   margin-top: 15px;
 }
 .entry-footer a {
-  color: #1B3764;
+  color: #1b3764;
 }
 
 .widget-area {
@@ -2397,7 +2397,7 @@ textarea {
   gap: 20px;
 }
 .widget-area .wp-block-heading {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 28px;
   font-style: normal;
@@ -2423,6 +2423,17 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
+}
+/* Archive page
+--------------------------------------------- */
+.archive .page-header {
+  background-color: #f6f8fc;
+  padding: 20px;
+}
+.archive .page-title {
+  background-color: #f6f8fc;
+  margin: 0;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
